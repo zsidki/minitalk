@@ -6,7 +6,7 @@
 #    By: zsidki <zsidki@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/30 18:01:21 by zsidki            #+#    #+#              #
-#    Updated: 2021/05/31 16:28:45 by zsidki           ###   ########.fr        #
+#    Updated: 2021/06/03 21:52:16 by zsidki           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 CC = gcc
 flags = -Wall -Wextra -Werror
 SRCSC = client.c
-SRCSS = server.c
+SRCSS = server.c src/ft_putnbr.c
 SRCSC_B = bonus/client.c src/*.c
 NAME  = minitalk
 NAME_B = minitalk_b

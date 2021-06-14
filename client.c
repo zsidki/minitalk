@@ -6,12 +6,11 @@
 /*   By: zsidki <zsidki@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/29 18:18:11 by zsidki            #+#    #+#             */
-/*   Updated: 2021/05/31 10:57:07 by zsidki           ###   ########.fr       */
+/*   Updated: 2021/06/03 21:39:09 by zsidki           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"minitalk.h"
-#include <signal.h>
 
 int	send_bits(int pid, unsigned char c)
 {

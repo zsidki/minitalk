@@ -6,7 +6,7 @@
 /*   By: zsidki <zsidki@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/30 13:02:56 by zsidki            #+#    #+#             */
-/*   Updated: 2021/05/30 22:08:37 by zsidki           ###   ########.fr       */
+/*   Updated: 2021/06/06 15:18:39 by zsidki           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,8 @@ int	main(void)
 {
 	signal(SIGUSR1, bitzero);
 	signal(SIGUSR2, bitone);
-	printf("%d\n", getpid());
+	ft_putnbr(getpid());
+	write(1, "\n", 1);
 	while (1)
 	{
 		pause();
